@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.area{
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+.menuArea{
+    background-color: #353535;
+    height: auto;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.list-inline-item a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: 10px;
+}
+.container{
+    margin-top: 30px;
+}
+
+.imgAreaTeclas img,
+.imgAreaCordas img{
+    height: 300px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.imgAreaPercurssao img{
+    height: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;  
+}
+
+.txtArea{
+    padding: 15px;
+    background-color: #ddd;
+    font-size: 13px;
+    height: 200px;
+}
+.container .btnArea{
+    background-color: #ddd;
+}
+.nossosServiços{
+    height: 200px;
+    max-height: 780px;
+    color: #353535
+}
+.contact{
+    padding-bottom: 20px;
+}
+input{
+    margin-bottom: 10px;
+}
+
+@media (min-width:768px){
+  .MenuHamburguer{
+      display: none;
+  }
+}
+@media (min-width:300px) and (max-width:767px){
+    .menuArea {
+        display: none;
+    }
+}
